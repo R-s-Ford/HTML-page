@@ -1,4 +1,14 @@
+* {
+    text-align: center;
+    
+}
 #top {
-    background-color: aquamarine;
+    background-color: #365f82;
     color: white;
+    margin: 0px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
+    
+}
+#top1 {
+    font-size: 1em;
 }
