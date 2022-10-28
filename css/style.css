@@ -1,16 +1,44 @@
 * {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Base Styles----*/
+html {
+    font-size: 1.25em;
+}
+body {
+    margin: 1rem;
+    font: 300 100%/1.5;
+    color: #454959
+}
+h1, h2 {
+    font: 400 4rem/1.1
+}
+h1, h2, h3 {
+    text-shadow: 2px 3px 4px rgba(0,10,30,.5);
+}
+h2 {
+    font-size: 1.5em;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*Main Styles------*/
+header {
+    padding: 10vh 1rem;
+    margin: -1rem -1rem 1rem;
+    background: url(../img/timber.jpg) center / cover  no-repeat;
+    background-color: grey;
+    background-blend-mode: multiply;
     text-align: center;
-    background-color: #5aadf5
-    
+    color: white
 }
-#top {
-    background-color: #365f82;
-    color: white;
-    max-width: 100%;
-    margin: 0px -5px 10px 0px;
-    padding: 5px 0px 5px 0px;
-    
-}
-#top1 {
-    font-size: 1em;
+h2 {
+    text-align: center;
+    background-color: rgb(233, 206, 86);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 10px rgba(61, 66, 38, 0.5);
 }
